@@ -1,0 +1,12 @@
+{
+  "name": "@sk/tools",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
