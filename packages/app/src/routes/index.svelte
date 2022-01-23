@@ -1,5 +1,9 @@
 <script lang="ts">
 	import { Text } from '@sk/ui';
+	import { SampleService } from '@sk/tools';
+
+	const service = new SampleService();
+	service.doSomething();
 </script>
 
 <h1>Welcome to SvelteKit</h1>
