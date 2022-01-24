@@ -1,0 +1,13 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: 'app',
+0 silly argv   D: true,
+0 silly argv   dev: true,
+0 silly argv   globs: [ 'twind/sveltekit@next' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'C:\\Users\\serge\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: 'twind/preset-tailwind@next'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Projects\05_lerna\svelte-monorepo
+3 error
