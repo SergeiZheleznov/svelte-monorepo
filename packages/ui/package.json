@@ -2,7 +2,7 @@
   "name": "@sk/ui",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "svelte-kit dev --port 3010",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
@@ -11,12 +11,8 @@
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
-  "main": "src/lib/index.ts",
+  "main": "package/index.js",
   "types": "package/index.d.ts",
-  "exports": {
-    ".": "./src/lib/index.ts",
-    "./components": "./src/lib/components/index.ts"
-  },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
